@@ -24,6 +24,24 @@ local diff = {
 				},
 			},
 		},
+		["a2004cdnil"] = {
+			["changed"] = {
+				[1] = {
+					["filter"] = {
+						["curvature"] = {
+							[1] = 0,
+						},
+						["deadzone"] = 0,
+						["invert"] = false,
+						["saturationX"] = 1,
+						["saturationY"] = 1,
+						["slider"] = true,
+					},
+					["key"] = "JOY_Z",
+				},
+			},
+			["name"] = "Throttle Both",
+		},
 		["a2012cdnil"] = {
 			["added"] = {
 				[1] = {
@@ -45,6 +63,16 @@ local diff = {
 		["a2033cdnil"] = {
 			["added"] = {
 				[1] = {
+					["filter"] = {
+						["curvature"] = {
+							[1] = 0.4,
+						},
+						["deadzone"] = 0.1,
+						["invert"] = false,
+						["saturationX"] = 1,
+						["saturationY"] = 1,
+						["slider"] = false,
+					},
 					["key"] = "JOY_X",
 				},
 			},
@@ -53,6 +81,16 @@ local diff = {
 		["a2034cdnil"] = {
 			["added"] = {
 				[1] = {
+					["filter"] = {
+						["curvature"] = {
+							[1] = 0.4,
+						},
+						["deadzone"] = 0.1,
+						["invert"] = false,
+						["saturationX"] = 1,
+						["saturationY"] = 1,
+						["slider"] = false,
+					},
 					["key"] = "JOY_Y",
 				},
 			},
@@ -97,6 +135,17 @@ local diff = {
 					["key"] = "JOY_BTN2",
 				},
 			},
+		},
+		["d387pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN13",
+					["reformers"] = {
+						[1] = "JOY_BTN3",
+					},
+				},
+			},
+			["name"] = "LAAP Altitude/Bank Hold",
 		},
 		["d539pnilu543cdnilvdnilvpnilvunil"] = {
 			["added"] = {
@@ -213,17 +262,6 @@ local diff = {
 			},
 			["name"] = "HOTAS Boat Switch Forward",
 		},
-		["d564pnilunilcdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN14",
-					["reformers"] = {
-						[1] = "JOY_BTN2",
-					},
-				},
-			},
-			["name"] = "HOTAS Boat Switch Aft",
-		},
 		["d565pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
@@ -337,9 +375,6 @@ local diff = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN1",
-					["reformers"] = {
-						[1] = "JOY_BTN2",
-					},
 				},
 			},
 			["name"] = "LAAP Engage/Disengage",
@@ -347,13 +382,24 @@ local diff = {
 		["d636pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN13",
+					["key"] = "JOY_BTN14",
 					["reformers"] = {
-						[1] = "JOY_BTN2",
+						[1] = "JOY_BTN3",
 					},
 				},
 			},
 			["name"] = "LAAP Altitude/Heading Hold",
+		},
+		["d637pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN11",
+					["reformers"] = {
+						[1] = "JOY_BTN3",
+					},
+				},
+			},
+			["name"] = "LAAP Path Hold",
 		},
 		["d957pnilu958cdnilvdnilvpnilvunil"] = {
 			["name"] = "Stick to trimmer control mode",

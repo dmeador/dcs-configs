@@ -5,9 +5,9 @@ local diff = {
 				[1] = {
 					["filter"] = {
 						["curvature"] = {
-							[1] = 0.2,
+							[1] = 0.15,
 						},
-						["deadzone"] = 0,
+						["deadzone"] = 0.04,
 						["invert"] = false,
 						["saturationX"] = 1,
 						["saturationY"] = 1,
@@ -23,9 +23,9 @@ local diff = {
 				[1] = {
 					["filter"] = {
 						["curvature"] = {
-							[1] = 0.2,
+							[1] = 0.15,
 						},
-						["deadzone"] = 0,
+						["deadzone"] = 0.04,
 						["invert"] = false,
 						["saturationX"] = 1,
 						["saturationY"] = 1,
@@ -84,6 +84,36 @@ local diff = {
 			},
 			["name"] = "UFC Master Caution Key",
 		},
+		["d1356pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN14",
+					["reformers"] = {
+						[1] = "JOY_BTN3",
+					},
+				},
+			},
+			["name"] = "Position Lights Flash",
+		},
+		["d1357pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN14",
+					["reformers"] = {
+						[1] = "JOY_BTN2",
+					},
+				},
+			},
+			["name"] = "Position Lights Off",
+		},
+		["d1358pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN14",
+				},
+			},
+			["name"] = "Position Lights Steady",
+		},
 		["d1396pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
@@ -91,6 +121,23 @@ local diff = {
 				},
 			},
 			["name"] = "Landing Lights On",
+		},
+		["d1397pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN13",
+					["reformers"] = {
+						[1] = "JOY_BTN2",
+					},
+				},
+				[2] = {
+					["key"] = "JOY_BTN12",
+					["reformers"] = {
+						[1] = "JOY_BTN2",
+					},
+				},
+			},
+			["name"] = "Landing/Taxi Lights Off",
 		},
 		["d1398pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
@@ -119,10 +166,18 @@ local diff = {
 		["d175pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN14",
+					["key"] = "JOY_BTN11",
 				},
 			},
 			["name"] = "Navigation lights",
+		},
+		["d3010pnilu3011cd49vd1vpnilvu-1"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN15",
+				},
+			},
+			["name"] = "Anti-Collision Lights switch",
 		},
 		["d350pnilu351cdnilvdnilvpnilvunil"] = {
 			["added"] = {
@@ -141,6 +196,12 @@ local diff = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN5",
+				},
+				[2] = {
+					["key"] = "JOY_BTN5",
+					["reformers"] = {
+						[1] = "JOY_BTN2",
+					},
 				},
 			},
 			["name"] = "LAAP Altitude/Bank Hold",
@@ -210,6 +271,12 @@ local diff = {
 				[1] = {
 					["key"] = "JOY_BTN7",
 				},
+				[2] = {
+					["key"] = "JOY_BTN2",
+					["reformers"] = {
+						[1] = "JOY_BTN3",
+					},
+				},
 			},
 			["name"] = "HOTAS Nosewheel Steering Button",
 			["removed"] = {
@@ -218,6 +285,17 @@ local diff = {
 				},
 			},
 		},
+		["d568pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN16",
+					["reformers"] = {
+						[1] = "JOY_BTN3",
+					},
+				},
+			},
+			["name"] = "HOTAS Pinky Switch Forward",
+		},
 		["d569pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
@@ -225,6 +303,17 @@ local diff = {
 				},
 			},
 			["name"] = "HOTAS Pinky Switch Aft",
+		},
+		["d570pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN16",
+					["reformers"] = {
+						[1] = "JOY_BTN2",
+					},
+				},
+			},
+			["name"] = "HOTAS Pinky Switch Center",
 		},
 		["d636pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
