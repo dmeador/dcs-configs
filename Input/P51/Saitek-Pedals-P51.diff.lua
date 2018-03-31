@@ -16,38 +16,12 @@ local diff = {
 				},
 			},
 		},
-		["a2003cdnil"] = {
-			["changed"] = {
-				[1] = {
-					["filter"] = {
-						["curvature"] = {
-							[1] = 0.2,
-						},
-						["deadzone"] = 0.04,
-						["invert"] = false,
-						["saturationX"] = 1,
-						["saturationY"] = 1,
-						["slider"] = false,
-					},
-					["key"] = "JOY_RZ",
-				},
-			},
-			["name"] = "Rudder",
-		},
-		["a2004cdnil"] = {
-			["name"] = "Throttle Both",
-			["removed"] = {
-				[1] = {
-					["key"] = "JOY_Z",
-				},
-			},
-		},
 		["a2112cdnil"] = {
 			["added"] = {
 				[1] = {
 					["filter"] = {
 						["curvature"] = {
-							[1] = 0.2,
+							[1] = 0,
 						},
 						["deadzone"] = 0,
 						["invert"] = true,
@@ -65,7 +39,7 @@ local diff = {
 				[1] = {
 					["filter"] = {
 						["curvature"] = {
-							[1] = 0.2,
+							[1] = 0,
 						},
 						["deadzone"] = 0,
 						["invert"] = true,
@@ -78,13 +52,11 @@ local diff = {
 			},
 			["name"] = "Wheel Brake Right",
 		},
-	},
-	["keyDiffs"] = {
-		["d562pnilu606cdnilvdnilvpnilvunil"] = {
-			["name"] = "HOTAS Nosewheel Steering Button",
+		["a3025cd5"] = {
+			["name"] = "Throttle",
 			["removed"] = {
 				[1] = {
-					["key"] = "JOY_BTN4",
+					["key"] = "JOY_Z",
 				},
 			},
 		},

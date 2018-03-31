@@ -52,14 +52,6 @@ local diff = {
 				},
 			},
 		},
-		["a2006cdnil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_SLIDER1",
-				},
-			},
-			["name"] = "Throttle Right",
-		},
 	},
 	["keyDiffs"] = {
 		["d1041pnilu1042cdnilvdnilvpnilvunil"] = {

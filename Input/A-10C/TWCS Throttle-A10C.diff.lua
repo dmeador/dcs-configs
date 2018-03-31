@@ -65,12 +65,12 @@ local diff = {
 				[1] = {
 					["filter"] = {
 						["curvature"] = {
-							[1] = 0.4,
+							[1] = 0.25,
 						},
-						["deadzone"] = 0.1,
+						["deadzone"] = 0.03,
 						["invert"] = false,
 						["saturationX"] = 1,
-						["saturationY"] = 1,
+						["saturationY"] = 0.82,
 						["slider"] = false,
 					},
 					["key"] = "JOY_X",
@@ -83,12 +83,12 @@ local diff = {
 				[1] = {
 					["filter"] = {
 						["curvature"] = {
-							[1] = 0.4,
+							[1] = 0.25,
 						},
-						["deadzone"] = 0.1,
+						["deadzone"] = 0.03,
 						["invert"] = false,
 						["saturationX"] = 1,
-						["saturationY"] = 1,
+						["saturationY"] = 0.82,
 						["slider"] = false,
 					},
 					["key"] = "JOY_Y",
@@ -262,6 +262,17 @@ local diff = {
 			},
 			["name"] = "HOTAS Boat Switch Forward",
 		},
+		["d564pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN14",
+					["reformers"] = {
+						[1] = "JOY_BTN2",
+					},
+				},
+			},
+			["name"] = "HOTAS Boat Switch Aft",
+		},
 		["d565pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
@@ -280,6 +291,14 @@ local diff = {
 				},
 			},
 			["name"] = "HOTAS China Hat Forward",
+		},
+		["d567pnilu589cdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN4",
+				},
+			},
+			["name"] = "HOTAS China Hat Aft",
 		},
 		["d572pnilu576cdnilvdnilvpnilvunil"] = {
 			["added"] = {
